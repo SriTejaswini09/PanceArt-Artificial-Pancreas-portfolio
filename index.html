@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PanceArt – Artificial Pancreas Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <header>
+    <h1>PanceArt – Artificial Pancreas Portfolio</h1>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>An artificial pancreas is a next-generation medical device that combines sensor technology, data analysis, and automatic drug delivery into one closed-loop system. It plays a crucial role in managing Type 1 Diabetes, where insulin production is completely impaired.</p>
+    <p>The system integrates three components: a Continuous Glucose Monitor (CGM), a control algorithm, and an insulin pump. The CGM continuously senses glucose levels in the interstitial fluid, which is slightly delayed compared to blood glucose but highly useful in long-term control.</p>
+    <p>The control algorithm receives glucose data, calculates trends, and dynamically adjusts insulin dosage. It mimics the human pancreas’s feedback mechanism, improving accuracy and reducing the risk of both low and high blood sugar episodes.</p>
+    <p>By automating this process, the artificial pancreas reduces the cognitive load on patients who would otherwise manually measure and inject insulin multiple times a day.</p>
+    <p>Studies show that these systems significantly reduce HbA1c levels, which is a marker of long-term glucose control. They also improve time-in-range, a measure of how long glucose levels remain within the optimal range.</p>
+    <p>Most artificial pancreas devices in the market today are hybrid systems — they still require meal-time input — but research is advancing toward fully autonomous solutions.</p>
+    <p>This project demonstrates a physical model of an artificial pancreas that shows real-time interaction between the glucose sensing, algorithmic decision-making, and insulin delivery system.</p>
+    <p>Though simplified, it reflects how signal feedback and actuation occur in modern biomedical implants, forming the basis of intelligent healthcare technologies.</p>
+    <p>In the future, artificial pancreas systems may integrate AI to predict glucose trends and respond even more precisely to lifestyle patterns, stress, or hormonal changes.</p>
+    <p>This makes the artificial pancreas not just a treatment, but a stepping stone toward bio-automated chronic disease management.</p>
+  </section>
+
+  <section>
+    <h2>Working Model</h2>
+    <p>The artificial pancreas works based on a <strong>closed-loop control system</strong>, meaning it continuously monitors, calculates, and adjusts insulin delivery without manual input.</p>
+    <p><strong>1. Continuous Glucose Monitor (CGM):</strong>  
+    A CGM is a sensor inserted under the skin that measures glucose levels in the interstitial fluid every few minutes. These values are wirelessly transmitted to a control device.</p>
+    <p><strong>2. Control Algorithm:</strong>  
+    At the heart of the system lies a PID (Proportional-Integral-Derivative) control algorithm. It uses glucose data to calculate insulin doses, ensuring a fine-tuned response based on how quickly and how much glucose levels are changing.</p>
+    <p><strong>3. Insulin Pump:</strong>  
+    The pump receives dose instructions from the algorithm and administers insulin through a cannula placed under the skin. It adjusts delivery dynamically depending on the user's activity, food intake, or stress levels.</p>
+    <p>In our prototype, tubing represents insulin flow, a syringe acts as the mechanical pump, and colored paths show data signals. This visually explains the feedback control principle of bioinstrumentation devices.</p>
+
+    <div class="image-row">
+      <img src="Closed-loop-control-with-artificial-pancreas.png" alt="Closed Loop Control Diagram">
+      <img src="Artificial-Pancreas-System.ppm" alt="Artificial Pancreas System">
+    </div>
+  </section>
+
+  <section>
+    <h2>Preview of the Project</h2>
+    <div class="image-row">
+      <img src="WhatsApp Image 2025-05-06 at 11.11.08_5036ed98.jpg" alt="Demo Image 1">
+      <img src="WhatsApp Image 2025-05-06 at 11.11.06_55e68f6d.jpg" alt="Demo Image 2">
+      <img src="WhatsApp Image 2025-05-05 at 22.19.22_37ae6824.jpg" alt="Project Poster">
+    </div>
+  </section>
+
+  <section>
+    <h2>Safety Protocols</h2>
+    <ul>
+      <li>Manual override options for emergency situations.</li>
+      <li>Encrypted wireless communication between devices.</li>
+      <li>Failsafe algorithms to prevent insulin overdose.</li>
+      <li>Audible/visual alarms for abnormal glucose levels.</li>
+      <li>Battery backup in case of system power failure.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Meet the Team</h2>
+    <p>Sri Tejaswini (RA2311013010005)</p>
+    <p>Nyla Bhargava (RA2311013010046)</p>
+    <p>Bratati Sen (RA2311013010002)</p>
+  </section>
+
+  <section>
+    <h2>Portfolio Work</h2>
+    <p>Sri Tejaswini. B (RA2311013010005)</p>
+    <p>Faculty Guide: Dr. Muthu. P</p>
+  </section>
+</body>
+</html>
